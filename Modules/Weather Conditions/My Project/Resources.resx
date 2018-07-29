@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="defaultweathericonset_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_0.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_10.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_11.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_12.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_13.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_14.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_15.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_16.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_17.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_18.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_19.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_20.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_21.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_22.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_23.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_25.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_26.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_27.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_27_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_27_1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_27_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_27_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_27_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_27_3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_27_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_27_4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_27_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_27_5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_27_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_27_6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_27_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_27_7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_27_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_27_8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_28.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_29.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_29_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_29_1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_29_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_29_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_29_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_29_3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_29_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_29_4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_29_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_29_5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_29_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_29_6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_29_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_29_7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_29_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_29_8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_30.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_31.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_31_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_31_1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_31_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_31_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_31_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_31_3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_31_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_31_4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_31_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_31_5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_31_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_31_6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_31_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_31_7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_31_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_31_8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_32.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_33.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_33_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_33_1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_33_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_33_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_33_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_33_3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_33_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_33_4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_33_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_33_5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_33_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_33_6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_33_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_33_7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_33_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_33_8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_34.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_35.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_36.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_37.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_38.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_39.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_40.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_41.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_42.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_43.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_44.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_45.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_45_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_45_1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_45_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_45_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_45_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_45_3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_45_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_45_4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_45_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_45_5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_45_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_45_6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_45_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_45_7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_45_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_45_8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_46.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_46_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_46_1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_46_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_46_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_46_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_46_3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_46_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_46_4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_46_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_46_5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_46_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_46_6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_46_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_46_7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_46_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_46_8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_47.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_47_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_47_1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_47_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_47_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_47_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_47_3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_47_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_47_4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_47_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_47_5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_47_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_47_6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_47_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_47_7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_47_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_47_8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_alert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_alert.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultweathericonset_na" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultweathericonset_na.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="error_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\error_icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="go" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\go.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TWClogo_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TWClogo_64px.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

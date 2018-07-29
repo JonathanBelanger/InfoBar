@@ -1,0 +1,123 @@
+﻿Public Class Keyboard
+
+#Region "Win API"
+  Private Const WH_KEYBOARD_LL As Short = 13
+  Private Const HC_ACTION As Short = 0
+  Private Const LLKHF_UP As Short = &H80
+
+  Const VK_NUMLOCK As Short = &H90, VK_SCROLL As Short = &H91, VK_CAPSLOCK As Short = &H14, VK_INSERT As Short = &H2D
+  Const KEYEVENTF_EXTENDEDKEY As Short = &H1S, KEYEVENTF_KEYUP As Short = &H2S
+
+  Private Structure KBDLLHOOKSTRUCT
+    Public vkCode As Integer
+    Public scanCode As Integer
+    Public flags As Integer
+    Public time As Integer
+    Public dwExtraInfo As Integer
+  End Structure
+
+  <DllImport("user32.dll")> _
+  Private Shared Function SetWindowsHookEx(ByVal idHook As Integer, ByVal lpfn As HookProc, ByVal hMod As Integer, ByVal dwThreadId As Integer) As Integer
+  End Function
+
+  <DllImport("user32.dll")> _
+  Private Shared Function UnhookWindowsHookEx(ByVal hHook As IntPtr) As Integer
+  End Function
+
+  <DllImport("user32.dll")> _
+  Private Shared Function CallNextHookEx(ByVal hHook As IntPtr, ByVal nCode As Integer, ByVal wParam As Integer, ByVal lParam As Integer) As Integer
+  End Function
+
+  <DllImport("kernel32.dll")> _
+  Private Shared Sub RtlMoveMemory(ByVal pDest As KBDLLHOOKSTRUCT, ByVal pSource As IntPtr, ByVal cb As Long)
+  End Sub
+
+  <DllImport("user32.dll")> _
+  Private Shared Function GetKeyState(ByVal nVirtKey As Integer) As Integer
+  End Function
+
+  <DllImport("user32.dll")> _
+  Private Shared Sub keybd_event(ByVal bVk As Byte, ByVal bScan As Byte, ByVal dwFlags As Integer, ByVal dwExtraInfo As Integer)
+  End Sub
+
+  Private Delegate Function HookProc(ByVal nCode As Integer, ByVal wParam As Integer, ByVal lParam As Integer) As Integer
+#End Region
+
+  Private m_KbdHook As IntPtr
+  Private m_NumLockOn As Boolean
+  Private m_CapsLockOn As Boolean
+  Private m_ScrollLockOn As Boolean
+  Private m_InsertOn As Boolean
+
+  Public Sub New()
+    m_KbdHook = SetWindowsHookEx(WH_KEYBOARD_LL, AddressOf LowLevelKeyboardProc, Process.GetCurrentProcess.Handle, 0&)
+  End Sub
+
+  Protected Overrides Sub Finalize()
+    If m_KbdHook <> 0 Then UnhookWindowsHookEx(m_KbdHook)
+    MyBase.Finalize()
+  End Sub
+
+  Private Function LowLevelKeyboardProc(ByVal nCode As Integer, ByVal wParam As Integer, ByVal lParam As Integer) As Integer
+    Dim kbdllhs As KBDLLHOOKSTRUCT
+    If nCode = HC_ACTION Then
+      RtlMoveMemory(kbdllhs, lParam, Len(kbdllhs))
+      If (kbdllhs.flags And LLKHF_UP) Then
+        Select Case kbdllhs.vkCode
+          Case VK_NUMLOCK
+            m_NumLockOn = (GetKeyState(VK_NUMLOCK) = &HFF81)
+          Case VK_CAPSLOCK
+            m_CapsLockOn = (GetKeyState(VK_CAPSLOCK) = &HFF81)
+          Case VK_SCROLL
+            m_ScrollLockOn = (GetKeyState(VK_SCROLL) = &HFF81)
+          Case VK_INSERT
+            m_InsertOn = (GetKeyState(VK_INSERT) = &HFF81)
+          Case Else
+        End Select
+      End If
+    End If
+    LowLevelKeyboardProc = CallNextHookEx(m_KbdHook, nCode, wParam, lParam)
+  End Function
+
+  Public Property CapsLock() As Boolean
+    Get
+      Return m_CapsLockOn
+    End Get
+    Set(ByVal value As Boolean)
+      ToggleKeyState(VK_CAPSLOCK)
+    End Set
+  End Property
+
+  Public Property NumLock() As Boolean
+    Get
+      Return m_NumLockOn
+    End Get
+    Set(ByVal value As Boolean)
+      ToggleKeyState(VK_NUMLOCK)
+    End Set
+  End Property
+
+  Public Property ScrollLock() As Boolean
+    Get
+      Return m_ScrollLockOn
+    End Get
+    Set(ByVal value As Boolean)
+      ToggleKeyState(VK_SCROLL)
+    End Set
+  End Property
+
+  Public Property InsertMode() As Boolean
+    Get
+      Return m_InsertOn
+    End Get
+    Set(ByVal value As Boolean)
+      ToggleKeyState(VK_INSERT)
+    End Set
+  End Property
+
+  Private Shared Sub ToggleKeyState(ByVal keycode As Short)
+    keybd_event(keycode, &H45S, KEYEVENTF_EXTENDEDKEY Or 0, 0)
+    keybd_event(keycode, &H45S, KEYEVENTF_EXTENDEDKEY Or KEYEVENTF_KEYUP, 0)
+  End Sub
+
+End Class

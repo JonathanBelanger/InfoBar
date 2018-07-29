@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<skin name="Windows Vista" author="Microsoft" version="1.1" website="http://www.microsoft.com/">
+	<background height="30" alpha="255" enableglass="true">
+		<image file="back.png" sizingtype="tile" sizingmargins="0,16,0,2" contentmargins="4,2,4,2" filenoglass="back_noglass.png" />
+		<text font="Segoe UI" fontsize="9" fontbold="false" fontitalic="false" fontunderline="false" color="255,255,255,255" yoffset="1" effect="glow" effectcolor="92,0,0,0" effectsize="2" effectxoffset="0" effectyoffset="0" />
+	</background>
+	<separator>
+		<image file="sep.png" sizingtype="none" sizingmargins="0,0,0,0" contentmargins="4,0,4,0" />
+	</separator>
+	<verticalseparator>
+		<image file="vertsep.png" sizingtype="tile" sizingmargins="0,0,0,0" />
+	</verticalseparator>
+	<button>
+		<image file="button.png" sizingtype="stretch" sizingmargins="4,4,4,4" contentmargins="4,4,4,4" />
+		<normaltext font="Segoe UI" fontsize="9" fontbold="false" fontitalic="false" fontunderline="false" color="255,255,255,255" yoffset="1" effect="glow" effectcolor="92,0,0,0" effectsize="2" effectxoffset="0" effectyoffset="0" />
+		<hovertext font="Segoe UI" fontsize="9" fontbold="false" fontitalic="false" fontunderline="false" color="255,255,255,255" yoffset="1" effect="glow" effectcolor="92,0,0,0" effectsize="2" effectxoffset="0" effectyoffset="0"  />
+		<downtext font="Segoe UI" fontsize="9" fontbold="false" fontitalic="false" fontunderline="false" color="255,255,255,255" yoffset="1" effect="glow" effectcolor="92,0,0,0" effectsize="2" effectxoffset="0" effectyoffset="0"  />
+		<dropdownarrow file="button_dropdownarrow.png" />
+	</button>
+	<textbox>
+		<image file="textbox.png" sizingtype="stretch" sizingmargins="5,5,5,5" contentmargins="4,4,4,4" />
+		<text font="Segoe UI" fontsize="9" fontbold="false" fontitalic="false" fontunderline="false" color="255,255,255,255" yoffset="1" effect="glow" effectcolor="92,0,0,0" effectsize="2" effectxoffset="0" effectyoffset="0" />
+		<inactivetext font="Segoe UI" fontsize="9" fontbold="false" fontitalic="false" fontunderline="false" color="48,255,255,255" yoffset="0" effect="glow" effectcolor="32,0,0,0" effectsize="2" effectxoffset="0" effectyoffset="0" />
+	</textbox>
+	<tooltip enableglass="true">
+		<image file="tooltip.png" mask="tooltip_mask.png" filenoglass="tooltip_noglass.png" sizingtype="stretch" sizingmargins="8,8,8,8" contentmargins="8,8,8,8" />
+		<text font="Segoe UI" fontsize="9" fontbold="false" fontitalic="false" fontunderline="false" color="255,0,0,0" yoffset="0" effect="glow" effectcolor="64,255,255,255" effectsize="2" effectxoffset="0" effectyoffset="0" />
+		<separator>
+			<image file="tooltip_separator.png" sizingtype="stretch" sizingmargins="10,3,10,3" />
+		</separator>
+	</tooltip>
+	<graph>
+		<image file="textbox.png" sizingtype="stretch" sizingmargins="5,5,5,5" contentmargins="2,3,3,3" />
+		<gridlines color="192,0,0,0" />
+	</graph>
+	<menu>
+		<background>
+			<image file="menu.png" sizingtype="stretch" sizingmargins="3,3,3,3" contentmargins="3,3,3,3" />
+		</background>
+		<margin>
+			<image file="menu_margin.png" sizingtype="stretch" sizingmargins="0,4,3,4" />
+		</margin>
+		<item>
+			<image file="menu_item.png" sizingtype="stretch" sizingmargins="30,3,4,3" contentmargins="1,1,1,1" />
+			<normaltext font="Segoe UI" fontsize="9" fontbold="false" fontitalic="false" fontunderline="false" color="255,0,0,0" yoffset="1" effect="none" />
+			<hovertext font="Segoe UI" fontsize="9" fontbold="false" fontitalic="false" fontunderline="false" color="255,0,0,0" yoffset="1" effect="none" />
+		</item>
+		<separator>
+			<image file="menu_separator.png" sizingtype="stretch" sizingmargins="32,4,4,4" />
+		</separator>
+		<arrow>
+			<image file="menu_arrow.png" />
+		</arrow>
+		<checkradio>
+			<image file="menu_checkradio.png" />
+		</checkradio>
+	</menu>
+	<slider>
+		<background>
+			<image file="slider_back.png" sizingtype="tile" sizingmargins="0,0,0,0" contentmargins="0,0,0,0" />
+		</background>
+		<button>
+			<image file="slider.png" sizingtype="none" sizingmargins="0,0,0,0" />
+		</button>
+	</slider>
+</skin>

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<skin name="Watercolor Emico (Washed Black)" author="Capric0rn" version="1.1" website="http://gelosea.deviantart.com/">
+	<background height="26" alpha="255" enableglass="false">
+		<image file="background.png" sizingtype="tile" sizingmargins="0,14,0,4" contentmargins="2,2,2,2" />
+		<text font="Tahoma" fontsize="8" fontbold="false" fontitalic="false" fontunderline="false" color="255,255,255,255" yoffset="0" effect="none" />
+	</background>
+	<separator>
+		<image file="separator.png" sizingtype="none" sizingmargins="0,0,0,0" />
+	</separator>
+	<verticalseparator>
+		<image file="vertsep.png" sizingtype="tile" sizingmargins="0,0,0,0" />
+	</verticalseparator>
+	<button>
+		<image file="button.png" sizingtype="stretch" sizingmargins="3,5,3,5" contentmargins="3,0,3,0" />
+		<normaltext font="Tahoma" fontsize="8" fontbold="false" fontitalic="false" fontunderline="false" color="255,255,255,255" yoffset="0" effect="none" />
+		<hovertext font="Tahoma" fontsize="8" fontbold="false" fontitalic="false" fontunderline="false" color="255,255,255,255" yoffset="0" effect="none" />
+		<downtext font="Tahoma" fontsize="8" fontbold="false" fontitalic="false" fontunderline="false" color="255,255,255,255" yoffset="0" effect="none" />
+		<dropdownarrow file="arrow.png" />
+	</button>
+	<textbox>
+		<image file="textbox.png" sizingtype="stretch" sizingmargins="3,5,3,5" contentmargins="3,2,3,0" />
+		<text font="Tahoma" fontsize="8" fontbold="false" fontitalic="false" fontunderline="false" color="255,255,255,255" yoffset="-1" effect="none" />
+		<inactivetext font="Tahoma" fontsize="8" fontbold="false" fontitalic="false" fontunderline="false" color="192,255,255,255" yoffset="-1" effect="none" />
+	</textbox>
+	<tooltip enableglass="false">
+		<image file="tooltip.png" mask="n/a" sizingtype="stretch" sizingmargins="4,4,8,8" contentmargins="5,5,9,9" />
+		<text font="Tahoma" fontsize="8" fontbold="false" fontitalic="false" fontunderline="false" color="255,0,0,0" yoffset="0" effect="none" />
+		<separator>
+			<image file="tooltip_separator.png" sizingtype="tile" sizingmargins="4,2,4,2" />
+		</separator>
+	</tooltip>
+	<graph>
+		<image file="textbox.png" sizingtype="stretch" sizingmargins="6,5,6,5" contentmargins="2,2,2,3" />
+		<gridlines color="128,0,0,0" />
+	</graph>
+	<menu>
+		<background>
+			<image file="menu.png" sizingtype="stretch" sizingmargins="2,2,2,2" contentmargins="2,2,2,2" />
+		</background>
+		<margin>
+			<image file="menu_margin.png" sizingtype="stretch" sizingmargins="3,3,3,3" />
+		</margin>
+		<item>
+			<image file="menu_item.png" sizingtype="stretch" sizingmargins="32,4,10,4" contentmargins="1,1,1,2" />
+			<normaltext font="Tahoma" fontsize="8" fontbold="false" fontitalic="false" fontunderline="false" color="255,0,0,0" yoffset="1" effect="none" />
+			<hovertext font="Tahoma" fontsize="8" fontbold="false" fontitalic="false" fontunderline="false" color="255,0,0,0" yoffset="1" effect="none" />
+		</item>
+		<separator>
+			<image file="menu_separator.png" sizingtype="stretch" sizingmargins="30,2,3,2" />
+		</separator>
+		<arrow>
+			<image file="menu_arrow.png" />
+		</arrow>
+		<checkradio>
+			<image file="menu_checkradio.png" />
+		</checkradio>
+	</menu>
+	<slider>
+		<background>
+			<image file="slider_back.png" sizingtype="tile" sizingmargins="1,1,1,1" contentmargins="0,0,0,0" />
+		</background>
+		<button>
+			<image file="slider.png" sizingtype="none" sizingmargins="0,0,0,0" />
+		</button>
+	</slider>	
+</skin>

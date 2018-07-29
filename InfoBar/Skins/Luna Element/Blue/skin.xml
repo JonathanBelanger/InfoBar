@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<skin name="Luna Element 5.1 (Blue)" author="em3" version="1.1" website="http://www.lunaelement.net/">
+	<background height="30" alpha="255" enableglass="false">
+		<image file="background.png" sizingtype="tile" sizingmargins="0,14,0,4" contentmargins="3,3,3,3" />
+		<text font="Tahoma" fontsize="8" fontbold="false" fontitalic="false" fontunderline="false" color="255,255,255,255" yoffset="1" effect="glow" effectcolor="32,0,0,0" effectsize="2" />
+	</background>
+	<separator>
+		<image file="separator.png" sizingtype="none" sizingmargins="0,0,0,0" />
+	</separator>
+	<verticalseparator>
+		<image file="vertsep.png" sizingtype="tile" sizingmargins="0,0,0,0" />
+	</verticalseparator>
+	<button>
+		<image file="button.png" sizingtype="stretch" sizingmargins="3,5,3,5" contentmargins="3,0,3,0" />
+		<normaltext font="Tahoma" fontsize="8" fontbold="false" fontitalic="false" fontunderline="false" color="255,255,255,255" yoffset="1" effect="glow" effectcolor="32,0,0,0" effectsize="2" />
+		<hovertext font="Tahoma" fontsize="8" fontbold="false" fontitalic="false" fontunderline="false" color="255,255,255,255" yoffset="1" effect="glow" effectcolor="32,0,0,0" effectsize="2" />
+		<downtext font="Tahoma" fontsize="8" fontbold="false" fontitalic="false" fontunderline="false" color="255,255,255,255" yoffset="1" effect="glow" effectcolor="32,0,0,0" effectsize="2" />
+		<dropdownarrow file="arrow.png" />
+	</button>
+	<textbox>
+		<image file="textbox.png" sizingtype="stretch" sizingmargins="3,5,3,5" contentmargins="3,1,3,0" />
+		<text font="Tahoma" fontsize="8" fontbold="false" fontitalic="false" fontunderline="false" color="255,255,255,255" yoffset="1" effect="glow" effectcolor="32,0,0,0" effectsize="2" />
+		<inactivetext font="Tahoma" fontsize="8" fontbold="false" fontitalic="false" fontunderline="false" color="192,255,255,255" yoffset="1" effect="glow" effectcolor="32,0,0,0" effectsize="2" />
+	</textbox>
+	<tooltip enableglass="false">
+		<image file="tooltip.png" mask="n/a" sizingtype="stretch" sizingmargins="4,4,8,8" contentmargins="5,5,9,9" />
+		<text font="Tahoma" fontsize="8" fontbold="false" fontitalic="false" fontunderline="false" color="255,0,0,0" yoffset="0" effect="none" />
+		<separator>
+			<image file="tooltip_separator.png" sizingtype="tile" sizingmargins="4,2,4,2" />
+		</separator>
+	</tooltip>
+	<graph>
+		<image file="textbox.png" sizingtype="stretch" sizingmargins="6,5,6,5" contentmargins="2,2,2,3" />
+		<gridlines color="128,0,0,0" />
+	</graph>
+	<menu>
+		<background>
+			<image file="menu.png" sizingtype="stretch" sizingmargins="2,2,2,2" contentmargins="2,2,2,2" />
+		</background>
+		<margin>
+			<image file="menu_margin.png" sizingtype="stretch" sizingmargins="3,3,3,3" />
+		</margin>
+		<item>
+			<image file="menu_item.png" sizingtype="stretch" sizingmargins="32,2,10,2" contentmargins="1,1,1,1" />
+			<normaltext font="Tahoma" fontsize="8" fontbold="false" fontitalic="false" fontunderline="false" color="255,0,0,0" yoffset="1" effect="none" effectcolor="16,0,0,0" effectsize="2" effectxoffset="1" effectyoffset="1" />
+			<hovertext font="Tahoma" fontsize="8" fontbold="false" fontitalic="false" fontunderline="false" color="255,0,0,0" yoffset="1" effect="none" effectcolor="16,0,0,0" effectsize="2" effectxoffset="1" effectyoffset="1" />
+		</item>
+		<separator>
+			<image file="menu_separator.png" sizingtype="stretch" sizingmargins="30,2,3,2" />
+		</separator>
+		<arrow>
+			<image file="menu_arrow.png" />
+		</arrow>
+		<checkradio>
+			<image file="menu_checkradio.png" />
+		</checkradio>
+	</menu>
+	<slider>
+		<background>
+			<image file="slider_back.png" sizingtype="tile" sizingmargins="1,1,1,1" contentmargins="0,0,0,0" />
+		</background>
+		<button>
+			<image file="slider.png" sizingtype="none" sizingmargins="0,0,0,0" />
+		</button>
+	</slider>			
+</skin>
